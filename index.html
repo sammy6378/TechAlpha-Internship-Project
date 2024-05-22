@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern Age Calculator</title>
+</head>
+<body>
+
+    <header>
+        <div class="flex-container">
+            <div class="hero">
+                <img src="images.png" alt="">
+                <h1>Enter Year of Birth</h1>
+            </div>
+            <div class="inputs">
+                <div class="input">
+                    <p>Day <span>*</span></p>
+                    <input type="text" minlength="1" maxlength="2" placeholder="DD" id="day">
+                </div>
+                <div class="input">
+                    <p>Month <span>*</span></p>
+                    <input type="text" minlength="1" maxlength="2" placeholder="MM" id="month">
+                </div>
+                <div class="input">
+                    <p>Year <span>*</span></p>
+                    <input type="text" minlength="4" maxlength="4" placeholder="YY" id="year">
+                </div>
+            </div>
+            <small id="error"></small>
+            
+            <div class="btn">
+                <a href="#" id="submit">Calculate Age</a>
+                <a href="#" id="reset">Reset All</a>
+            </div>
+        </div>
+        <div class="display">
+            <div class="box">
+                <p id="year-display"></p>
+                <p>Years</p>
+            </div>
+           <div class="box">
+            <p id="month-display"></p>
+            <p>Months</p>
+           </div>
+           <div class="box">
+            <p id="day-display"></p>
+            <p>Days</p>
+           </div>
+        </div>
+    </header>
+    <script src="typo.js"></script>
+</body>
+</html>
