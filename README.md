@@ -69,4 +69,3 @@ Contact
 If you have any questions or suggestions, feel free to contact me:
 
 Email: samuel202mwangi@gmail.com
-GitHub: sammy6378
