@@ -65,7 +65,8 @@ git push origin feature/your-feature-name
 
 Go to the original repository on GitHub and click "New Pull Request".
 
-Contact
+## Contact
+
 If you have any questions or suggestions, feel free to contact me:
 
 Email: samuel202mwangi@gmail.com
